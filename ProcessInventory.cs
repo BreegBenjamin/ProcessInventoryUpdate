@@ -22,7 +22,7 @@ namespace ProcessInventoryUpdate
             strategy = configuration.GetValue<string>("ServiceBrokerStrategy")!;
         }
 
-        [Function("ProcessInventory")]
+        [Function("ProcessInventoryUpdate")]
         public async Task<IActionResult> Run( [HttpTrigger(AuthorizationLevel.Function,"post")]  HttpRequest req)
         {
             var options = new JsonSerializerOptions
