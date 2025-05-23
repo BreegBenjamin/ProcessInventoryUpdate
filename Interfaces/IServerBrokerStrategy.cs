@@ -1,4 +1,4 @@
-﻿using ProcessInventoryUpdate.Model;
+﻿using Inventory.Shared.Model;
 
 namespace ProcessInventoryUpdate.Interfaces
 {

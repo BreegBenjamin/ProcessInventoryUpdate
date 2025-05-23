@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 using ProcessInventoryUpdate.Interfaces;
-using ProcessInventoryUpdate.Model;
+using Inventory.Shared.Model;
 using System.Text.Json;
 
 namespace ProcessInventoryUpdate.Services

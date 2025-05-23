@@ -1,5 +1,5 @@
 ﻿using ProcessInventoryUpdate.Interfaces;
-using ProcessInventoryUpdate.Model;
+using Inventory.Shared.Model;
 
 namespace ProcessInventoryUpdate.Services
 {
